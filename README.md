@@ -5,7 +5,8 @@ This project implements a text clustering algorithm to group similar sentences b
 ## **1. Dataset**
 
 The dataset used in this project consists of 118,723 unique descriptions. These descriptions represent a wide range of topics and form the basis for unsupervised clustering. The dataset is processed and vectorized to identify latent topics in the text.
-
+You can download the dataset & extract them into the cloned repository folder
+[Dataset](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset?select=train.csv)
 ### **Data Attributes**
 - **Unique Descriptions**: 118,723
 - **Description Length**: Varies, with an average of 10-50 words per description.
@@ -22,7 +23,7 @@ The approach to clustering involves the following key steps:
 2. **Clustering Algorithm**:
    - We used the K-Means algorithm to group the descriptions based on cosine similarity.
    - After vectorizing the text data, K-Means was applied to generate clusters of similar descriptions.
-
+   - Since there are huge number of descriptions, it may take little long to complete the execution
 3. **Evaluation**:
    - Clusters were analyzed qualitatively to assess the coherence of topics within each group.
    - The number of clusters can be adjusted for different granularity of topics.

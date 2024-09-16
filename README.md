@@ -1,6 +1,7 @@
 # **Text Clustering Assignment**
 
-This project implements a text clustering algorithm to group similar sentences based on various topics. The dataset contains 118,723 unique descriptions, and the goal is to cluster these descriptions into meaningful groups using machine learning techniques.
+This project implements a text clustering algorithm to group similar sentences based on various topics. The dataset contains 118,723 unique descriptions and the goal is to cluster these descriptions into meaningful groups using machine learning techniques.
+Due to Rescource Limitations, the dataset used in the implementation in brought down to 30,000
 
 ## **1. Dataset**
 
@@ -8,7 +9,7 @@ The dataset used in this project consists of 118,723 unique descriptions. These 
 You can download the dataset & extract them into the cloned repository folder
 [Dataset](https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset?select=train.csv)
 ### **Data Attributes**
-- **Unique Descriptions**: 118,723
+- **Unique Descriptions**: 118,723 used only 30,000 due to resouce limitations.
 - **Description Length**: Varies, with an average of 10-50 words per description.
 - **Language**: English
 
